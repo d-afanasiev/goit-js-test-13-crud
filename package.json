@@ -6,7 +6,8 @@
   "homepage": "https://d-afanasiev.github.io/goit-js-test-13-crud",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-test-13-crud/"
+    "build": "parcel build src/*.html --public-url /goit-js-test-13-crud/",
+    "server": "json-server --watch db.json"
   },
   "repository": {
     "type": "git",
